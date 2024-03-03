@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 # Load the dataset to get dropdown options
-dataset = pd.read_csv(r'data\Dummy Data HSS-Marketing and Sales Data.csv')
+dataset = pd.read_csv(r'data\marketingandsalesdata.csv')
 
 @app.route('/')
 def home():
